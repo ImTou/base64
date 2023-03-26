@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Base64 Converter</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-		<div class="container">
-		<h1>Base64 Converter</h1>
-		<p>To use this tool:</p>
-		<ol>
-			<li>Enter the text you want to encode or decode into the "Input Text" box.</li>
-			<li>Click the "Encode" button if you want to encode the text into Base64 format, or click the "Decode" button if you want to decode the text from Base64 format.</li>
-			<li>The result will appear in the "Output Text" box.</li>
-		</ol>
-		<form>
-			<label for="input-text">Input Text:</label>
-			<textarea id="input-text" placeholder="Enter text to encode or decode"></textarea>
-			<label for="output-text">Output Text:</label>
-			<textarea id="output-text" placeholder="Result will appear here" disabled></textarea>
-			<div class="button-container">
-				<button type="button" onclick="encode()">Encode</button>
-				<button type="button" onclick="decode()">Decode</button>
-			</div>
-		</form>
-	</div>
-	<script src="script.js"></script>
-</body>
+  <head>
+    <title>Base64 Converter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Base64 Converter</h1>
+      <p>To use this tool:</p>
+      <ol>
+        <li>Enter the text you want to encode or decode into the "Input Text" box.</li>
+        <li>Click the "Encode" button if you want to encode the text into Base64 format, or click the "Decode" button if you want to decode the text from Base64 format.</li>
+        <li>The result will appear in the "Output Text" box.</li>
+      </ol>
+      <form>
+        <label for="input-text">Input Text:</label>
+        <textarea id="input-text" placeholder="Enter text to encode or decode"></textarea>
+        <label for="output-text">Output Text:</label>
+        <textarea id="output-text" placeholder="Result will appear here" disabled></textarea>
+        <div class="button-container">
+          <button type="button" onclick="encode()">Encode</button>
+          <button type="button" onclick="decode()">Decode</button>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
