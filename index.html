@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Base64 Converter</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Base64 Converter</h1>
+		<form>
+			<label for="input-text">Input Text:</label>
+			<textarea id="input-text" placeholder="Enter text to encode or decode"></textarea>
+			<label for="output-text">Output Text:</label>
+			<textarea id="output-text" placeholder="Result will appear here" disabled></textarea>
+			<div class="button-container">
+				<button type="button" onclick="encode()">Encode</button>
+				<button type="button" onclick="decode()">Decode</button>
+			</div>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
