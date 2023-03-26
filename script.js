@@ -9,3 +9,5 @@ function decode() {
 	var output = atob(input);
 	document.getElementById("output-text").value = output;
 }
+
+
