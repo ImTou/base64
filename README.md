@@ -24,5 +24,9 @@ This is an open-source project, and contributions are welcome. If you notice any
 ## Credits
 This project was created by <b>Tou</b>.
 
+## Follow me on Facebook
+For more information about me and my other projects, you can follow me on Facebook
+[![Facebook](https://img.shields.io/badge/Follow-Facebook-blue)](https://www.facebook.com/) 
+
 
 
